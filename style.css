@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #b3e0f2; /* Light Blue background */
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    background-color: #b7e4c7; /* Light Green container background */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.app-section {
+    margin-bottom: 20px;
+}
+
+.separator {
+    margin: 20px 0;
+    border: none;
+    height: 2px;
+    background-color: #333;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #27ae60;
+}
+
+#currentTasks,
+#completedTasks {
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#walletTotal {
+    margin-top: 10px;
+    color: #333;
+}
+
+#appDescription {
+    margin-top: 10px;
+}
+
+#descriptionBox {
+    background-color: #ffffff; /* Yellow box background */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+#appDescriptionText {
+    color: #333;
+    margin: 0;
+}
